@@ -8,6 +8,7 @@ jQuery(document).ready(function(){
     jQuery(".advantage").accordion({
         collapsible: true,
         active: false,
+        heightStyle: "content",
         beforeActivate: function( event, ui ) {
             $(ui.newHeader).hide();
             $(ui.oldHeader).show();
