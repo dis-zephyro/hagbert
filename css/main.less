@@ -466,15 +466,21 @@ hr {
 			background: url("../img/b04_item11.png") 0 0 no-repeat;
 		}
 
-		.source {
-			top:0;
-			left: 10px;
+		.source-inner {
 			z-index: 20;
+			height: 320px;
+			left: -100px;
+			right: -100px;
+			position: absolute;
+			padding: 0 100px;
+			background: #fff url("../img/empty.png");
+		}
+
+		.source {
 			width: 840px;
 			height: 320px;
 			padding: 20px;
 			overflow: hidden;
-			position: absolute;
 			background: #fff url("../img/empty.png");
 			-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
 			-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.5);

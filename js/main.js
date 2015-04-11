@@ -22,7 +22,7 @@ jQuery(document).ready(function(){
 $(".scroll").each(function () {
     var block = $(this);
     $(window).scroll(function() {
-        var margin = $(window).height() /3;
+        var margin = ($(window).height() - 1) / 2;
         var top = block.offset().top;
         var bottom = block.height()+top - margin;
         top = top - $(window).height() + margin;

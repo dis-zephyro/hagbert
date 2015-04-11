@@ -397,15 +397,20 @@ hr {
 .block04 .advantage .advantage-title .item11 .avatar {
   background: url("../img/b04_item11.png") 0 0 no-repeat;
 }
-.block04 .advantage .source {
-  top: 0;
-  left: 10px;
+.block04 .advantage .source-inner {
   z-index: 20;
+  height: 320px;
+  left: -100px;
+  right: -100px;
+  position: absolute;
+  padding: 0 100px;
+  background: #ffffff url("../img/empty.png");
+}
+.block04 .advantage .source {
   width: 840px;
   height: 320px;
   padding: 20px;
   overflow: hidden;
-  position: absolute;
   background: #ffffff url("../img/empty.png");
   -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
   -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);

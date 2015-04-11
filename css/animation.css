@@ -1,6 +1,6 @@
 
 
-.block04 .source {
+.block04 .source-inner {
 	opacity: 0;
 }
 
@@ -13,7 +13,7 @@
 	animation: zoomOut 1s .2s forwards;
 }
 
-.block04 .source.animated {
+.block04 .source-inner.animated {
 	 -webkit-animation: fadeIn 1s .2s forwards;
 	 animation: fadeIn 1s .2s forwards;
 }
