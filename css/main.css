@@ -322,7 +322,24 @@ hr {
 .block04 .advantage {
   margin-bottom: 50px;
 }
+.block04 .advantage li {
+  width: 860px;
+  height: 320px;
+  padding: 0 10px;
+  position: relative;
+  margin: 0 auto 20px auto;
+}
 .block04 .advantage .advantage-title {
+  top: 0;
+  left: 10px;
+  z-index: 10;
+  width: 840px;
+  height: 320px;
+  background: #ffffff url("../img/empty.png");
+  padding-top: 125px;
+  position: absolute;
+}
+.block04 .advantage .advantage-title h3 {
   width: 840px;
   height: 70px;
   outline: none;
@@ -336,60 +353,60 @@ hr {
   -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
   box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
 }
-.block04 .advantage .advantage-title .title {
-  cursor: pointer;
-}
-.block04 .advantage .advantage-title .avatar {
+.block04 .advantage .advantage-title h3 .avatar {
   top: -65px;
   left: -110px;
   width: 224px;
   height: 200px;
   position: absolute;
 }
-.block04 .advantage .advantage-title .avatar.avatar-right {
+.block04 .advantage .advantage-title h3 .avatar.avatar-right {
   left: auto;
   right: -110px;
 }
-.block04 .advantage .advantage-title.item01 .avatar {
+.block04 .advantage .advantage-title .item01 .avatar {
   background: url("../img/b04_item01.png") 0 0 no-repeat;
 }
-.block04 .advantage .advantage-title.item02 .avatar {
+.block04 .advantage .advantage-title .item02 .avatar {
   background: url("../img/b04_item02.png") 0 0 no-repeat;
 }
-.block04 .advantage .advantage-title.item03 .avatar {
+.block04 .advantage .advantage-title .item03 .avatar {
   background: url("../img/b04_item03.png") 0 0 no-repeat;
 }
-.block04 .advantage .advantage-title.item04 .avatar {
+.block04 .advantage .advantage-title .item04 .avatar {
   background: url("../img/b04_item04.png") 0 0 no-repeat;
 }
-.block04 .advantage .advantage-title.item05 .avatar {
+.block04 .advantage .advantage-title .item05 .avatar {
   background: url("../img/b04_item05.png") 0 0 no-repeat;
 }
-.block04 .advantage .advantage-title.item06 .avatar {
+.block04 .advantage .advantage-title .item06 .avatar {
   background: url("../img/b04_item06.png") 0 0 no-repeat;
 }
-.block04 .advantage .advantage-title.item07 .avatar {
+.block04 .advantage .advantage-title .item07 .avatar {
   background: url("../img/b04_item07.png") 0 0 no-repeat;
 }
-.block04 .advantage .advantage-title.item08 .avatar {
+.block04 .advantage .advantage-title .item08 .avatar {
   background: url("../img/b04_item08.png") 0 0 no-repeat;
 }
-.block04 .advantage .advantage-title.item09 .avatar {
+.block04 .advantage .advantage-title .item09 .avatar {
   background: url("../img/b04_item09.png") 0 0 no-repeat;
 }
-.block04 .advantage .advantage-title.item10 .avatar {
+.block04 .advantage .advantage-title .item10 .avatar {
   background: url("../img/b04_item10.png") 0 0 no-repeat;
 }
-.block04 .advantage .advantage-title.item11 .avatar {
+.block04 .advantage .advantage-title .item11 .avatar {
   background: url("../img/b04_item11.png") 0 0 no-repeat;
 }
 .block04 .advantage .source {
+  top: 0;
+  left: 10px;
+  z-index: 20;
   width: 840px;
+  height: 320px;
+  padding: 20px;
   overflow: hidden;
-  background: #fff;
-  position: relative;
-  margin: 0 auto 120px auto;
-  padding: 20px 30px 20px 20px;
+  position: absolute;
+  background: #ffffff url("../img/empty.png");
   -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
   -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
   box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
@@ -407,12 +424,11 @@ hr {
   margin-bottom: 25px;
 }
 .block04 .advantage .source .source-text p {
-  font: 12px/20px 'fira_monoregular';
-  margin-bottom: 40px;
+  font: 12px/16px 'fira_monoregular';
+  margin-bottom: 20px;
 }
 .block04 .advantage .source .source-text p.lead {
   font-family: 'fira_sansbold';
-  margin-bottom: 20px;
 }
 .block04 .advantage .source .btn {
   height: 30px;

@@ -4,7 +4,17 @@
 	opacity: 0;
 }
 
+.block04 .advantage-title {
+	opacity: 1;
+}
+
+.block04 .advantage-title.animated {
+	-webkit-animation: zoomOut 1s .2s forwards;
+	animation: zoomOut 1s .2s forwards;
+}
+
 .block04 .source.animated {
-	 -webkit-animation: scaleUp 1s .2s forwards;
-	 animation: scaleUp 1s .2s forwards;
- }
+	 -webkit-animation: fadeIn 1s .2s forwards;
+	 animation: fadeIn 1s .2s forwards;
+}
+
