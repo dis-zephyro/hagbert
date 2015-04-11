@@ -1,0 +1,10 @@
+
+
+.block04 .source {
+	opacity: 0;
+}
+
+.block04 .source.animated {
+	 -webkit-animation: scaleUp 1s .2s forwards;
+	 animation: scaleUp 1s .2s forwards;
+ }
