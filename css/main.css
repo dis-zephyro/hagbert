@@ -143,12 +143,51 @@ hr {
 }
 .block01 .content {
   height: 690px;
-  padding-top: 110px;
+  padding-top: 40px;
 }
 .block01 .content .box {
-  padding: 15px;
   width: 530px;
+}
+.block01 .content .box .white-box {
+  padding: 15px;
   background: url("../img/pattern-white.png");
+}
+.block01 .content .box .yellow-box {
+  padding: 15px;
+  position: relative;
+  background: url("../img/yellow-pattern.png");
+}
+.block01 .content .box .yellow-box .yellow-box-image {
+  z-index: 200;
+  right: -220px;
+  bottom: -35px;
+  position: absolute;
+}
+.block01 .content .box .yellow-box .action-title {
+  font-size: 32px;
+  line-height: 40px;
+}
+.block01 .content .box .yellow-box .action-text {
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 30px;
+  font-family: 'fira_sansbook';
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.block01 .content .box .yellow-box .timer .timer-legend {
+  width: 320px;
+  margin: -20px auto 0 auto;
+}
+.block01 .content .box .yellow-box .timer .timer-legend li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #000;
+  font-family: 'fira_sansbold';
 }
 .block01 .content .box h2 {
   text-align: center;
@@ -159,7 +198,7 @@ hr {
   font: 22px/30px 'fira_sansbook';
 }
 .block01 .content .box ul {
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 .block01 .content .box ul li {
   height: 27px;
@@ -178,7 +217,7 @@ hr {
 }
 .block01 .content .box p {
   font: 16px/23px 'fira_sansbook';
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .block01 .content .box .btn {
   width: 268px;

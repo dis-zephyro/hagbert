@@ -1,0 +1,76 @@
+.countdownHolder{
+	width:400px;
+	margin:0 auto;
+	font: 30px/1.5 'Open Sans Condensed',sans-serif;
+	text-align:center;
+	letter-spacing:-3px;
+}
+
+.position{
+	display: inline-block;
+	height: 50px;
+	overflow: hidden;
+	position: relative;
+	width: 32px;
+}
+
+.digit{
+	position:absolute;
+	display:block;
+	width: 30px;
+	background-color:#444;
+	border-radius:0.2em;
+	text-align:center;
+	color:#fff;
+	font-weight: bold;
+	letter-spacing:-1px;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.digit.static{
+	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35);
+	background: url("../../../img/bg-timer.png") center repeat-x;
+}
+
+/**
+ * Вы можете использовать данные классы для скрытия
+ * частей счетчика, которые не нужны.
+ */
+
+.countDays{ /* display:none !important;*/ }
+.countDiv0{ /* display:none !important;*/ }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+
+
+.countSeconds .digit.static {
+	background: url("../../../img/bg-timer-red.png") center repeat-x;
+}
+
+.countDiv{
+	display:inline-block;
+	width:14px;
+	height:50px;
+	position:relative;
+}
+
+.countDiv:before,
+.countDiv:after{
+	position:absolute;
+	width:5px;
+	height:5px;
+	background-color:#444;
+	border-radius:50%;
+	left:50%;
+	margin-left:-3px;
+	top:25px;
+	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.5);
+	content:'';
+}
+
+.countDiv:after{
+	top:15px;
+}

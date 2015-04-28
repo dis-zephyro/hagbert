@@ -11,6 +11,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="js/vendor/jquery.fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="js/vendor/countdown/jquery.countdown.css">
         <link rel="stylesheet/less" href="css/main.less">
         <script src="js/vendor/less.min.js"></script>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -47,19 +48,37 @@
             <div class="content">
                 <div class="container">
                     <div class="box">
-                        <h2> Что такое HAGBERT HAUS?</h2>
-                        <div class="title">Это энергоэффективный экологичный дом:</div>
-                        <ul>
-                            <li class="item01">дышится  – легко</li>
-                            <li class="item02">топается – бесшумно</li>
-                            <li class="item03">живется – красиво</li>
-                        </ul>
-                        <p>Это сумма технологий из Германи, Австрии, Швейцарии,
-                            подобранных в Вашем доме с высочайшими тщательностью,
-                            продуманностью и внимательностью к мелочам.</p>
-                        <p>Посмотрите на базовый проект - рай для перфекциониста</p>
-                        <div class="text-center">
-                            <a href="#popup" class="btn black order">ХОЧУ БАЗОВЫЙ ПРОЕКТ</a>
+                        <div class="white-box">
+                            <h2> Что такое HAGBERT HAUS?</h2>
+                            <div class="title">Это энергоэффективный экологичный дом:</div>
+                            <ul>
+                                <li class="item01">дышится  – легко</li>
+                                <li class="item02">топается – бесшумно</li>
+                                <li class="item03">живется – красиво</li>
+                            </ul>
+                            <p>Это сумма технологий из Германи, Австрии, Швейцарии,
+                                подобранных в Вашем доме с высочайшими тщательностью,
+                                продуманностью и внимательностью к мелочам.</p>
+                            <p>Посмотрите на базовый проект - рай для перфекциониста</p>
+                        </div>
+                        <div class="yellow-box">
+                            <div class="yellow-box-image">
+                                <img src="img/gril.png" alt="Внимание, АКЦИЯ!">
+                            </div>
+                            <h2 class="action-title">Внимание, АКЦИЯ!</h2>
+                            <div class="action-text">Оставь заявку до 31 мая и получи профессиональный гриль гриль в ПОДАРОК!</div>
+                            <div class="timer">
+                                <div id="countdown"></div>
+                                <ul class="timer-legend clearfix">
+                                    <li>дней</li>
+                                    <li>часов</li>
+                                    <li>минут</li>
+                                    <li>секунд</li>
+                                </ul>
+                            </div>
+                            <div class="text-center">
+                                <a href="#popup" class="btn black order">ХОЧУ БАЗОВЫЙ ПРОЕКТ</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -425,6 +444,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/vendor/jquery-ui/jquery-ui.min.js"></script>
         <script src="js/vendor/jquery.fancybox/jquery.fancybox.pack.js"></script>
+        <script src="js/vendor/countdown/jquery.countdown.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

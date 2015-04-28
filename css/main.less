@@ -164,12 +164,64 @@ hr {
 
 	.content {
 		height: 690px;
-		padding-top: 110px;
+		padding-top: 40px;
 
 		.box {
-			padding: 15px;
 			width: 530px;
-			background: url("../img/pattern-white.png");
+
+
+			.white-box {
+				padding: 15px;
+				background: url("../img/pattern-white.png");
+			}
+
+			.yellow-box {
+				padding: 15px;
+				position: relative;
+				background: url("../img/yellow-pattern.png");
+
+				.yellow-box-image {
+					z-index: 200;
+					right: -220px;
+					bottom: -35px;
+					position: absolute;
+				}
+
+
+				.action-title {
+					font-size: 32px;
+					line-height: 40px;
+				}
+
+				.action-text {
+					font-size: 16px;
+					text-align: center;
+					line-height: 20px;
+					margin-bottom: 30px;
+					font-family: @font-book;
+					text-transform: uppercase;
+					text-decoration: underline;
+				}
+
+				.timer {
+
+
+					.timer-legend {
+						width: 320px;
+						margin: -20px auto 0 auto;
+
+						li {
+							float: left;
+							width: 25%;
+							text-align: center;
+							font-size: 11px;
+							text-transform: uppercase;
+							color: #000;
+							font-family: @font-bold;
+						}
+					}
+				}
+			}
 
 			h2 {
 				text-align: center;
@@ -182,7 +234,7 @@ hr {
 			}
 
 			ul {
-				margin-bottom: 40px;
+				margin-bottom: 15px;
 
 				li {
 					height: 27px;
@@ -206,7 +258,7 @@ hr {
 
 			p {
 				font: 16px/23px @font-book;
-				margin-bottom: 25px;
+				margin-bottom: 15px;
 			}
 
 			.btn {
